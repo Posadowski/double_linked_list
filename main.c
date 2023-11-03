@@ -126,7 +126,6 @@ int main()
     queue_el *tail = NULL;
 
     char buffer[BUFF_LEN];
-    char buffer_aux[BUFF_LEN];
 
     while (fgets(buffer, BUFF_LEN, stdin) != NULL)
     {
